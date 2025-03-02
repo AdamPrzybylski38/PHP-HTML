@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>index.php</title>
 </head>
 
 <body>
@@ -24,6 +24,24 @@
     $printA = print ("A");
     //$printB = echo("B"); // echo doesn't return anything
     ?>
+
+    <!-- Comments in html are visible -->
+    <?php
+    // Comments in PHP are not visible
+    # Single line comment
+    /*
+    Multi-line comment
+    */
+    ?>
+
+    <!-- <?php
+    echo "comment visible in source";
+    ?> -->
+
+    <?php
+    echo "<!-- this is also visible -->";
+    ?>
+
 </body>
 
 </html>
