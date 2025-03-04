@@ -42,6 +42,14 @@
     echo "<!-- this is also visible -->";
     ?>
 
+    <!-- JavaScript usage in PHP example -->
+<!--
+    <script>
+        <?php echo 'alert("Wykryto wirums!!1!1");'; ?>
+        <?php echo 'confirm("OK");'; ?>
+    </script>
+-->
+    
 </body>
 
 </html>
